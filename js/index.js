@@ -1,10 +1,13 @@
-console.log("file loaded correctly");
-
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
+(document).ready(function() {
+  
+    var scrollLink = $('.scroll');
+    
+    // Smooth scrolling
+    scrollLink.click(function(e) {
+      e.preventDefault();
+      $('body,html').animate({
+        scrollTop: $(this.hash).offset().top
+      }, 1000 );
     });
-});
+    
+  });
