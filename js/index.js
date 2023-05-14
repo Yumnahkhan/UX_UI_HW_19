@@ -1,4 +1,4 @@
-(document).ready(function() {
+$(document).ready(function() {
   
     var scrollLink = $('.scroll');
     
@@ -10,4 +10,4 @@
       }, 1000 );
     });
     
-  });
+  })
