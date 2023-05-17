@@ -43,15 +43,18 @@ nav ul {
 }
 
 #project1 {
-    background-image: url(../Images/backgroundimg.jpg);
+    background-image: url(../Images/animalhouse.png);
+    background-position: center;
 }
 
 #project2 {
-    background-image: url(../Images/sunset.jpg);
+    background-image: url(../Images/flyby-mockup.png);
+    background-position: center;
 }
 
 #project3 {
-    background-image: url(../Images/blue\ background.jpg);
+    background-image: url(../Images/gifted.png);
+    background-position: center;
 }
 
 #project4 {
