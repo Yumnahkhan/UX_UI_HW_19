@@ -35,26 +35,29 @@ nav ul {
 }
 
 .heroImg {
-    background-size: cover;
+    background-color: #BFAEB3;
 }
 
 #mainHero {
-    background-color: #BFAEB3;
+   
 }
 
 #project1 {
     background-image: url(../Images/animalhouse.png);
     background-position: center;
+    background-size: cover;
 }
 
 #project2 {
     background-image: url(../Images/flyby-mockup.png);
     background-position: center;
+    background-size: cover;
 }
 
 #project3 {
     background-image: url(../Images/gifted.png);
     background-position: center;
+    background-size: cover;
 }
 
 
