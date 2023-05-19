@@ -37,7 +37,8 @@ nav ul {
 }
 
 .heroImg {
-    background-color: #BFAEB3;
+    background-image: url(../Images/pinkbackground.jpg);
+    background-size: cover;
 }
 
 
