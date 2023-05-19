@@ -152,7 +152,7 @@ label {
     gap: 30px;
     justify-content: center;
     align-items: flex-start;
-    padding: 10px;
+    padding: 20px;
 }
 
 @media (min-width: 800px) {
